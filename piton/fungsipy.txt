@@ -1,0 +1,37 @@
+1. *Fungsi Bawaan:*
+   - `print()`: Untuk mencetak output ke layar.
+   - `input()`: Untuk mengambil input dari pengguna.
+   - `len()`: Mengembalikan panjang (jumlah item) dari sebuah objek seperti string atau list.
+   - `range()`: Membuat deret bilangan.
+   - `enumerate()`: Memberikan indeks dan nilai dari sebuah iterable.
+   - `zip()`: Menggabungkan dua atau lebih iterable secara bersamaan.
+   - `sum()`: Menghitung jumlah dari sebuah iterable.
+   - `min()`, `max()`: Mengembalikan nilai terkecil atau terbesar dari sebuah iterable.
+   - `sorted()`: Mengurutkan item dari sebuah iterable.
+   - `abs()`: Mengembalikan nilai absolut dari sebuah bilangan.
+   - `round()`: Membulatkan sebuah bilangan menjadi bilangan bulat terdekat.
+   - `type()`: Mengembalikan tipe data dari sebuah objek.
+   - `str()`, `int()`, `float()`, `list()`, `tuple()`, `dict()`, `set()`: Untuk mengubah tipe data objek menjadi tipe data lainnya.
+
+2. *Fungsi Matematika:*
+   - `math.sqrt()`: Mengembalikan akar kuadrat dari sebuah bilangan.
+   - `math.sin()`, `math.cos()`, `math.tan()`: Fungsi trigonometri.
+   - `math.log()`, `math.exp()`: Logaritma dan eksponensial.
+   - `math.ceil()`, `math.floor()`: Pembulatan ke atas atau ke bawah.
+
+3. *Fungsi String:*
+   - `str.upper()`, `str.lower()`: Mengubah huruf menjadi huruf besar atau kecil.
+   - `str.strip()`: Menghapus spasi di awal dan akhir string.
+   - `str.split()`: Membagi string berdasarkan delimiter tertentu.
+   - `str.join()`: Menggabungkan elemen iterable menjadi string dengan separator tertentu.
+   - `str.replace()`: Mengganti substring dalam sebuah string.
+
+4. *Fungsi File:*
+   - `open()`: Membuka file.
+   - `close()`: Menutup file.
+   - `read()`, `readline()`, `readlines()`: Membaca isi file.
+
+5. *Fungsi Terkait Sistem:*
+   - `os.getcwd()`: Mendapatkan direktori kerja saat ini.
+   - `os.listdir()`: Mendapatkan daftar file dan folder dalam direktori tertentu.
+   - `os.path.exists()`, `os.path.isfile()`, `os.path.isdir()`: Memeriksa keberadaan file atau direktori
