@@ -1,9 +1,8 @@
 import random
-import belajar
 
 cuypy_position = random.randint(1,4 ) 
 
-def start():
+def start1():
     while True :
         bentukgoa = "|_|"
         goakosong = [bentukgoa] * 4
@@ -22,17 +21,16 @@ def start():
             print("Pilihan tidak valid. Silakan pilih goa antara 1 dan 4.")
             pilihanuser = int(input("Pilih goa mana yang ingin Anda masuki (1-4): "))
 
-        confirmanswer = input(f"Apakah Anda yakin ingin masuk ke goa {pilihanuser}? (y/n): ")
-
         if pilihanuser == cuypy_position:
             print(f"Selamat! Anda menemukan Cuypy di goa {pilihanuser}!")
         else:
             print(f"Maaf. Cuypy tidak ada di goa {pilihanuser}.")
-            
+        
+        import belajar
         playagain = input("Apakah Anda ingin bermain lagi? (y/n): ")
         if playagain.lower() != 'y':
             print("Terima kasih telah bermain! Sampai jumpa lagi!")
             belajar.options()
 
 if __name__ == "__main__":
-    start()
+    start1()
