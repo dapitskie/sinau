@@ -25,7 +25,7 @@ def cari_mahasiswa():
         print("Tidak ada data mahasiswa yang tersedia.")
         return
     
-    nomor_cari = input(float("Masukkan nilai untuk mencari mahasiswa ingin dicari: "))
+    nomor_cari = float(input("Masukkan nilai untuk mencari mahasiswa ingin dicari: "))
     ditemukan = False
     
     for mahasiswa in data_mahasiswa:
